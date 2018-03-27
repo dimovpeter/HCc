@@ -2426,34 +2426,20 @@ var LandingPage = function (_React$Component) {
 				),
 				_react2.default.createElement(
 					'div',
-					{ className: 'demo-coming-soon' },
+					{ className: 'content' },
 					_react2.default.createElement(
 						'h1',
 						null,
 						'Demo Coming Soon'
-					)
-				),
-				_react2.default.createElement(
-					'div',
-					{ className: 'the-answer' },
-					_react2.default.createElement(
-						'h3',
-						null,
-						'The answer to the question:'
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'the-question' },
+						{ className: 'contact-us' },
 						_react2.default.createElement(
-							'h1',
-							null,
-							'\u201CWhat would recruiting be like if you had behavioural and cognitive makeup data, and a really good filtering tool?\u201D'
+							'a',
+							{ href: 'mailto:info@hc-company.com' },
+							'Contact Us'
 						)
-					),
-					_react2.default.createElement(
-						'a',
-						{ href: 'mailto:info@hc-company.com' },
-						'Contact Us'
 					)
 				)
 			);
@@ -2505,7 +2491,7 @@ exports = module.exports = __webpack_require__(21)(false);
 
 
 // module
-exports.push([module.i, "body{\n  font-family: 'Roboto';\n\n\n}\n.landing-page{\n\tposition: absolute;\n\tbackground: linear-gradient(\n     white 0%, rgb(100, 100, 100));\n\ttop: 0px;\n\tleft: 0px;\n\twidth: 100%;\n\theight: 100%;\n\toverflow: hidden;\n\tdisplay: table;\n}\n.hcc-header h1{\n\n\tfont-family: 'Abril Fatface';\n\tmargin-left: 20px;\n}\n.the-answer{\n\tfont-family: 'Abril Fatface';\n\twidth: 80%;\n\tmargin: auto;\n\theight: 100%;\n\tdisplay: table-cell;\n    vertical-align: middle;\n\toverflow: hidden;\n\tbackground-color: rgba(255, 255, 255, 0.1);\n\t\n}\n.demo-coming-soon h1{\n\tposition: absolute;\n\ttop: 0px;\n\tright: 20px;\n\t\n\tfont-family: \"Roboto\";\n\tfont-weight: 100;\n\tfont-size: 20px;\n\tcolor: grey;\n}\n.demo-coming-soon h1:hover{\n\tcolor: black;\n}\n.the-answer h3{\n\n\tfont-weight: 100;\n\tposition: relative;\n\n}\n.the-question {\n\tfont-family: 'Abril Fatface';\n\n\tcolor: grey;\n\tmargin-bottom: 40px;\n}\n.the-answer a{\n\tposition: absolute;\n\tright: 90px;\n\tbottom: 30px;\n\tfont-size: 20px;\n}\n.the-answer button{\n\tposition: relative;\n\tbackground-color: inherit;\n\tfont-family: 'Roboto';\n\twidth: 40%;\n\tmin-width: 500px;\n\tbackground-color: rgba(255, 255, 255, 0.5);\n\t\n\tcolor: rgb(30, 30, 30);\n\tmargin-left: 30%;\n\tmargin-top: 40px;\n\tfont-size: 30px;\n\tfont-weight: 100;\n\tpadding-top: 20px;\n\tpadding-bottom: 20px;\n\tcolor: rgba(30, 30, 30);\n}\n.the-answer button:hover{\n\tbackground-color: rgba(255, 255, 255, 0.65);\n}\n.underline-human {\n  background-image: linear-gradient(120deg, pink 0%, #F3A183 100%);\n  background-repeat: no-repeat;\n  background-size: 100% 0.1em;\n  background-position: 0 88%;\n  transition: background-size 0.25s ease-in;\n}\n.underline-human:hover{\n\n    background-size: 100% 88%;\n}\n.mail-to{\n\tposition: relative;\n\theight: 300px;\n\twidth: 600px;\n\tmargin: auto;\n\tbackground-color: blue;\n}", ""]);
+exports.push([module.i, "body{\n  font-family: 'Montserrat';\n}\n\n.landing-page{\n\tposition: absolute;\n\ttop: 0px;\n\tleft: 0px;\n\twidth: 100%;\n\theight: 100%;\n\toverflow: hidden;\n\tdisplay: table;\n\tbackground-image: radial-gradient(rgb(10, 10, 10), rgb(80, 80, 80));\n}\n.hcc-header{\n\tposition: relative;\n\tmargin-left: 20%;\n\twidth: 60%;\n\tmin-width: 500px;\n\tmargin-top: 150px;\n\t\n\ttext-align: center;\n\tbackground-color: inherit;\n}\n\n.hcc-header h1{\n\tbackground-color: inherit;\n\tpadding: 15px;\n\twidth: 80%;\n\n\tmargin-left: 10%;\n\tposition: relative;\n\tline-height: 30px;\n\tfloat: left;\n\tfont-family: 'Montserrat';\n\t\n\tfont-weight: 200;\n\tmin-width: 300px;\n\tfont-size: 30px;\n\tcolor: white;\n\n\tdisplay: table;\n}\n.contact-us{\n\tmargin-top: 50px;\n\tposition: relative;\n\tbackground-color: none;\n\twidth: 100px;\n\ttext-align: center;\n\tline-height: 40px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\theight: 40px;\n\t\n}\n.content{\n\tposition: absolute;\n\twidth: 60%;\n\theight: 300px;\n\tmargin-left: 20%;\n\tmargin-top: 100px;\n\tmin-height: 300px;\n\ttext-align: middle;\n\tmin-width: 500px;\n\tbackground-color: rgba(0, 0, 0, 0.3);\n}\n.content h1{\n\tposition: relative;\n\tmargin: auto;\n\tpadding: 10px;\n\tmargin-top: 50px;\n\ttext-align: center;\n\tbackground-color: rgba(0, 0, 0, 0.1);\n\tcolor: white;\n\twidth: 400px;\n\tfont-weight: 100;\n\n}\n", ""]);
 
 // exports
 
