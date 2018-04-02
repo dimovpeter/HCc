@@ -2416,12 +2416,7 @@ var LandingPage = function (_React$Component) {
 					_react2.default.createElement(
 						'h1',
 						null,
-						_react2.default.createElement(
-							'span',
-							{ className: 'underline-human' },
-							'Human'
-						),
-						' Capital Company'
+						'HUMAN CAPITAL COMPANY'
 					)
 				),
 				_react2.default.createElement(
@@ -2491,7 +2486,7 @@ exports = module.exports = __webpack_require__(21)(false);
 
 
 // module
-exports.push([module.i, "body{\n  font-family: 'Montserrat';\n}\n\n.landing-page{\n\tposition: absolute;\n\ttop: 0px;\n\tleft: 0px;\n\twidth: 100%;\n\theight: 100%;\n\toverflow: hidden;\n\tdisplay: table;\n\tbackground-image: radial-gradient(rgb(10, 10, 10), rgb(80, 80, 80));\n}\n.hcc-header{\n\tposition: relative;\n\tmargin-left: 20%;\n\twidth: 60%;\n\tmin-width: 500px;\n\tmargin-top: 100px;\n\t\n\ttext-align: center;\n\tbackground-color: inherit;\n}\n\n.hcc-header h1{\n\tbackground-color: inherit;\n\tpadding: 15px;\n\twidth: 80%;\n\n\tmargin-left: 10%;\n\tposition: relative;\n\tline-height: 30px;\n\tfloat: left;\n\tfont-family: 'Montserrat';\n\t\n\tfont-weight: 200;\n\tmin-width: 300px;\n\tfont-size: 50px;\n\tcolor: white;\n\n\tdisplay: table;\n}\n.contact-us{\n\tmargin-top: 50px;\n\tposition: relative;\n\tbackground-color: none;\n\twidth: 100px;\n\ttext-align: center;\n\tline-height: 40px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\theight: 40px;\n\t\n}\n.content{\n\tposition: absolute;\n\twidth: 60%;\n\theight: 300px;\n\tmargin-left: 20%;\n\tmargin-top: 150px;\n\tmin-height: 300px;\n\ttext-align: middle;\n\tmin-width: 500px;\n\tbackground-color: rgba(0, 0, 0, 0.3);\n}\n.content h1{\n\tposition: relative;\n\tmargin: auto;\n\tpadding: 10px;\n\tmargin-top: 50px;\n\ttext-align: center;\n\tbackground-color: rgba(0, 0, 0, 0.1);\n\tcolor: white;\n\twidth: 400px;\n\tfont-weight: 100;\n\n}\n.underline-human{\n\tborder-bottom: 0.1px solid white;\n}\n\n", ""]);
+exports.push([module.i, "body{\n  font-family: 'Lato';\n}\n\n.landing-page{\n\tposition: absolute;\n\ttop: 0px;\n\tleft: 0px;\n\twidth: 100%;\n\theight: 100%;\n\toverflow: hidden;\n\tdisplay: table;\n\tbackground-color: black;\n}\n.hcc-header{\n\tposition: relative;\n\n\twidth: 100%;\n\t\n\ttext-align: center;\n\tbackground-color: inherit;\n}\n\n.hcc-header h1{\n\tbackground-color: inherit;\n\tpadding: 15px;\n\twidth: 100%;\n\n\tmargin-top: 10%;\n\theight: 100px;\n\tbackground-color: inherit;\n\tline-height: 100px;\n\tposition: relative;\n\n\n\tfont-family: 'Lato';\n\t\n\tfont-weight: 100;\n\tmin-width: 1000px;\n\tfont-size: 80px;\n\tcolor: grey;\n\n\tdisplay: table;\n}\n.contact-us{\n\t\n\tposition: relative;\n\tbackground-color: inherit;\n\twidth: 100px;\n\tmargin-top: 30px;\n\ttext-align: center;\n\tline-height: 40px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\theight: 40px;\n\t\n}\n.contact-us a{\n\tfont-size: 20px;\n\tfont-weight: 100;\n\ttext-decoration: underline;\n}\n.content{\n\tposition: relative;\n\twidth: 60%;\n\theight: 300px;\n\tmargin-left: 20%;\n\t\n\tmin-height: 300px;\n\ttext-align: middle;\n\tmin-width: 500px;\n\tbackground-color: inherit;\n}\n.content h1{\n\tposition: relative;\n\tmargin: auto;\n\tpadding: 10px;\n\tmargin-top: 50px;\n\ttext-align: center;\n\tbackground-color: inherit;\n\tcolor: white;\n\twidth: 400px;\n\tfont-size: 40px;\n\tfont-weight: 100;\n}\n.content ul{\n\tcolor: white;\n\tfont-weight: 100;\n\tcolor: rgb(180, 180, 180);\n}\n.white{\n\tcolor: white;\n\tfont-size: 18px;\n}\n.underline-human{\n\tborder-bottom: 0.1px solid white;\n}\n\n", ""]);
 
 // exports
 
